@@ -1,10 +1,18 @@
 {
   "users": [
-    { "id": 1, "name": "Alice", "email": "alice@example.com", "role": "admin" },
-    { "id": 2, "name": "Bob", "email": "bob@example.com", "role": "user" }
+    { "id": 1, "name": "Denys", "email": "Denys@gmail.com", "weight": 85, "role": "admin" },
+    { "id": 2, "name": "KozLOW", "email": "kozLOW@hotmail.com", "weight": 150, "role": "user" },
+    { "id": 3, "name": "Petro", "email": "Petro@outlook.com", "weight": 80, "role": "admin" },
+    { "id": 4, "name": "Oksana", "email": "oksana@gmail.com", "weight": 62, "role": "user" },
+    { "id": 5, "name": "Maksym", "email": "maksym@meta.ua", "weight": 78, "role": "user" }
   ],
   "posts": [
     { "id": 1, "title": "Hello REST", "userId": 1, "tags": ["intro", "rest"] },
-    { "id": 2, "title": "JSON Tips", "userId": 2, "tags": ["json"] }
+    { "id": 2, "title": "JSON Tips", "userId": 2, "tags": ["json", "tips"] },
+    { "id": 3, "title": "REST Tips", "userId": 3, "tags": ["rest", "tips"] },
+    { "id": 4, "title": "Advanced Querying", "userId": 1, "tags": ["api", "queries"] },
+    { "id": 5, "title": "Debugging 101", "userId": 2, "tags": ["debug", "basics"] },
+    { "id": 6, "title": "Database Indexing", "userId": 3, "tags": ["database", "sql"] },
+    { "id": 7, "title": "Async Operations", "userId": 4, "tags": ["async", "performance"] }
   ]
 }
